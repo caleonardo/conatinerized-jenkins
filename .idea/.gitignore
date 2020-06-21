@@ -1,2 +1,5 @@
 # Default ignored files
 /workspace.xml
+
+.DS_Store
+jenkins-agent-ssh/.DS_Store
