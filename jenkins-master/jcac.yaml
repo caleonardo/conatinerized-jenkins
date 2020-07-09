@@ -76,7 +76,7 @@ credentials:
                   privateKey: |
                     -----BEGIN RSA PRIVATE KEY-----
                     +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-                    +        !!!! DO NOT REGISTER YOUR PRIVATE KEY HERE !!!!       +
+                    +   !!!! DO NOT PUT YOUR PRIVATE KEY HERE IN PRODUCTION !!!!   +
                     +  !!!!  IF YOU DO, DOCKER WILL PUT IT IN THE BUILD LOGS !!!!  +
                     +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
                     + Instead, configure the private key using the Jenkins Web UI  +

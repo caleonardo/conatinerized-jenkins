@@ -8,7 +8,7 @@ ENV CASC_JENKINS_CONFIG="/var/jenkins_casc_configs/jcac.yaml"
 COPY jcac.yaml $CASC_JENKINS_CONFIG
 
 # -----------------------------------------------------------------------------
-# SET VARIABLES USED IN THE JCAC.YAML FILE (used in the web UI)
+# SET VARIABLES USED IN THE JCAC.YAML FILE (used for the Jenkins web UI)
 
 # SSH Jenkins Agent which we want to connect to
 ENV JENKINS_AGENT_NAME="Agent1"
@@ -21,7 +21,7 @@ ENV JENKINS_WEB_UI_ADMIN_USER="admin"
 ENV JENKINS_WEB_UI_ADMIN_PASSWD="admin"
 ENV JENKINS_WEB_UI_ADMIN_EMAIL="admin@admin.com"
 
-# PIPELINE Variables: Github repository we want Jenkins to conect to
+# PIPELINE Variables: Github repository we want Jenkins to connect to
 ENV GITHUB_USERNAME="<github-username>"
-ENV GITHUB_TOKEN="<githum-token>"
+ENV GITHUB_TOKEN="<github-token>"
 ENV GITHUB_REPO_NAME="solutions-terraform-jenkins-gitops"
