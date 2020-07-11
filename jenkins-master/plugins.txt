@@ -42,6 +42,9 @@ github:1.29.5
 github-api:1.111
 github-branch-source:2.7.1
 git-server:1.9
+google-metadata-plugin
+google-storage-plugin
+google-oauth-plugin
 handlebars:1.1.1
 handy-uri-templates-2-api:2.1.8-1.0
 htmlpublisher:1.22

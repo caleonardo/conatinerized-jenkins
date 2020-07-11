@@ -124,10 +124,12 @@ Copy the private SSH key from the terminal and paste it in the `privateKey` sect
 ### 3.5. Build and Run the Jenkins Master 
 Run these commands in your terminal from `jenkins-master-onprem/` directory:
  ```
+cd jenkins-master-onprem/
 TAG_NUMBER="0.1"
 docker build --tag jenkins_master_img:$TAG_NUMBER .
 docker run --publish 8080:8080 --detach --name jenkins-master-container jenkins_master_img:$TAG_NUMBER 
 ```
+Login to the Jenkins Master at `http://localhost:8080/login` using username `admin` and password `admin`
 
 #### 3.5.1. OPTIONAL - Configure the private SSH key in your Jenkins Master's Web UI
 Follow these steps from your Jenkins Master's Web UI:
